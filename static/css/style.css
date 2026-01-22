@@ -1,0 +1,125 @@
+/* ======== Layout Geral ======== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* fundo suave */
+    color: #212529;
+    padding-bottom: 50px;
+}
+
+/* ======== Navbar ======== */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+/* ======== Formulários ======== */
+form {
+    max-width: 500px;
+    margin: auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"], input[type="password"] {
+    border-radius: 5px;
+}
+
+button {
+    min-width: 100px;
+}
+
+/* ======== Tabela ======== */
+table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+th {
+    background-color: #0d6efd; /* azul Bootstrap */
+    color: #fff;
+}
+
+td, th {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* ======== Botões ======== */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-danger {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-danger:hover {
+    background-color: #3c9b52;
+    border-color: #3c9b52;
+}
+
+/* ======== Inputs e Pesquisa ======== */
+input.form-control {
+    margin-bottom: 10px;
+}
+
+/* ======== Mensagens Flash ======== */
+.alert {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+/* ======== Responsividade ======== */
+@media (max-width: 576px) {
+    form {
+        padding: 15px;
+    }
+    
+    table, th, td {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+}

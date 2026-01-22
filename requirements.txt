@@ -1,4 +1,8 @@
-Flask
-Flask-SQLAlchemy
-Flask-Login
-Werkzeug
+
+flask 
+flask-sqlalchemy 
+flask-login 
+flask-wtf 
+flask-limiter 
+pytest 
+pytest-flask
